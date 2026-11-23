@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="MetxKon Lab — a workspace for mechanical compression testing and materials analysis.">
+  <title>MetxKon Lab</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="MetxKon Lab home">
+      <span class="brand-mark">M</span>
+      <span>MetxKon <span class="muted">Lab</span></span>
+    </a>
+    <span class="status">Research workspace <span class="dot"></span></span>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">MATERIALS · MECHANICS · DATA</p>
+      <h1>Compression testing,<br><span>made analytical.</span></h1>
+      <p class="intro">A focused workspace for importing, examining and analysing mechanical compression test data.</p>
+    </section>
+    <section class="workspace" aria-labelledby="workspace-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">WORKSPACE</p>
+          <h2 id="workspace-title">Start with your data</h2>
+        </div>
+        <span class="pill">Prototype</span>
+      </div>
+      <div class="dropzone" id="dropzone">
+        <div class="upload-icon" aria-hidden="true">↑</div>
+        <h3>Import a test file</h3>
+        <p>CSV data import will be implemented in the next stage.</p>
+        <button type="button" disabled>Import CSV · Coming soon</button>
+        <input type="file" id="file-input" accept=".csv,text/csv" hidden>
+      </div>
+    </section>
+    <section class="cards">
+      <article class="feature-card"><span class="card-index">01</span><h3>Data integrity</h3><p>Preserve raw measurements and keep processing steps traceable.</p></article>
+      <article class="feature-card"><span class="card-index">02</span><h3>Scientific analysis</h3><p>Calculation methods and assumptions will be explicit and documented.</p></article>
+      <article class="feature-card"><span class="card-index">03</span><h3>Comparisons</h3><p>Compare specimens and test conditions in a consistent workflow.</p></article>
+    </section>
+    <footer><span>MetxKon Lab</span><span>Early development · Methods subject to validation</span></footer>
+  </main>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
